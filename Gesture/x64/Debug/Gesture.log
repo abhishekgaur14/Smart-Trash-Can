@@ -1,0 +1,21 @@
+﻿Build started 04-27-2016 01:53:13.
+     1>Project "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\Gesture.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I\build\include /I"C:\Program Files\Microsoft SDKs\Speech\v11.0\Include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\Gesture.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I\build\include /I"C:\Program Files\Microsoft SDKs\Speech\v11.0\Include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Gesture.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Gesture.cpp
+         Gesture.cpp
+     1>Gesture.cpp(463): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Gesture.cpp(469): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Gesture.cpp(473): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Gesture.cpp(475): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Bluetooth\x64\Debug\Gesture.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Bluetooth" /LIBPATH:C:\Users\AKSHAY\Downloads\opencv3.1.0\build\x64\vc12\lib /LIBPATH:C:\Users\AKSHAY\Downloads\opencv3.1.0\build\x64\vc12\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\lib\x64" /LIBPATH:\build\x64\vc12\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Speech\v11.0\Lib" opencv_world310.lib Kinect20.lib Kinect20.Face.lib Kinect20.Fusion.lib Kinect20.VisualGestureBuilder.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Bluetooth\x64\Debug\Gesture.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Bluetooth\x64\Debug\Gesture.lib" /MACHINE:X64 x64\Debug\Gesture.obj
+         x64\Debug\stdafx.obj
+     1>Gesture.obj : error LNK2019: unresolved external symbol "void __cdecl bt(char * const)" (?bt@@YAXQEAD@Z) referenced in function wmain
+     1>C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Bluetooth\x64\Debug\Gesture.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\Gesture.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.24

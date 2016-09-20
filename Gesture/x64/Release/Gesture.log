@@ -1,0 +1,35 @@
+﻿Build started 04-27-2016 10:29:38.
+     1>Project "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\Gesture.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I\build\include /I"C:\Program Files\Microsoft SDKs\Speech\v11.0\Include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\Gesture.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /IC:\Users\AKSHAY\Downloads\opencv3.1.0\build\include /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\inc" /I\build\include /I"C:\Program Files\Microsoft SDKs\Speech\v11.0\Include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Gesture.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Gesture.cpp Source.cpp
+         Gesture.cpp
+     1>Gesture.cpp(469): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Gesture.cpp(473): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Gesture.cpp(475): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\x64\Release\Gesture.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\AKSHAY\Downloads\opencv3.1.0\build\x64\vc12\lib /LIBPATH:C:\Users\AKSHAY\Downloads\opencv3.1.0\build\x64\vc12\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\lib\x64" /LIBPATH:\build\x64\vc12\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Speech\v11.0\Lib" opencv_world310.lib Kinect20.lib Kinect20.Face.lib Kinect20.Fusion.lib Kinect20.VisualGestureBuilder.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\x64\Release\Gesture.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\x64\Release\Gesture.lib" /MACHINE:X64 x64\Release\Gesture.obj
+         x64\Release\Source.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         Gesture.vcxproj -> C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\x64\Release\Gesture.exe
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Redist\VGB\x64" "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\x64\Release\" /e /y /i /r & if exist "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\\*.gba" copy "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\\*.gba" "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\x64\Release\" /y
+         :VCEnd
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Redist\VGB\x64\Kinect20.VisualGestureBuilder.dll
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Redist\VGB\x64\Microsoft.Kinect.VisualGestureBuilder.dll
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Redist\VGB\x64\Microsoft.Kinect.VisualGestureBuilder.xml
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Redist\VGB\x64\vgbtechs\AdaBoostTech.dll
+         C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\\Redist\VGB\x64\vgbtechs\RFRProgressTech.dll
+         5 File(s) copied
+         C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\\HandUp.gba
+         C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\\Swipe.gba
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\AKSHAY\Desktop\Abhishek\Kinect2Sample-master\Sample\Gesture\Gesture.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.62
