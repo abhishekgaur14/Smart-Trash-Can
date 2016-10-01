@@ -39,12 +39,5 @@ Readme
 	- Press Ok. Save the project using Ctrl + S.
 	- Go to Build -> Build Gesture. The project should get built without any errors.
 	- Press F5 to run the project.
-
-5. Compiling Gumstix Code.
-	- Compile the motor driver code m_driver.c using Makefile. Just type make.
-	- Make sure you do /ad/eng/courses/ec/ec535/bashrc_ec535 before doing a
-	make.
-	- For the Bluetooth code b.c, compile by typing:
-	arm-linux-gcc b.c –o b -lbluetooth
 	
 You should see few windows pop up. One of them would be feeding camera’s input. Just ignore all this. You are good to go.
